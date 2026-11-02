@@ -58,6 +58,32 @@ You said: exit
 Goodbye!
 ```
 
+## Screenshots
+
+**Hello greeting**
+
+![Hello greeting](screenshots/output1.png)
+
+**Time**
+
+![Time](screenshots/output2.png)
+
+**Date**
+
+![Date](screenshots/output3.png)
+
+**Search terminal output**
+
+![Search terminal output](screenshots/output4.1.png)
+
+**Search results in browser**
+
+![Search results in browser](screenshots/output4.2.png)
+
+**Error handling and exit**
+
+![Error handling and exit](screenshots/output5.png)
+
 ## How it works
 
 1. **Listen:** `listen()` captures microphone audio and prints "Listening..." while waiting for speech.
@@ -80,11 +106,18 @@ Goodbye!
 ## Project structure
 
 ```text
-voice_final/
+Python-Task1-VoiceAssistant/
 ├── voice_assistant.py   # Voice assistant logic
 ├── requirements.txt     # Python package dependencies
 ├── README.md            # Project guide
-└── LICENSE              # MIT License
+├── LICENSE              # MIT License
+└── screenshots/         # Output screenshots of the assistant
+    ├── output1.png
+    ├── output2.png
+    ├── output3.png
+    ├── output4.1.png
+    ├── output4.2.png
+    └── output5.png
 ```
 
 ## Installation and usage
